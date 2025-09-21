@@ -15,5 +15,5 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["src", "public", "src/pages"]
+  "include": ["src", "public", "src/pages", "public/data"]
 }

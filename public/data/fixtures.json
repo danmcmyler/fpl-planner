@@ -1,0 +1,9 @@
+{
+  "season": "2025-26",
+  "gameweeks": [1, 2, 3],
+  "teams": ["ARS", "CHE", "LIV", "MCI"],
+  "difficulty": [
+    { "gw": 1, "team": "ARS", "value": 2 },
+    { "gw": 1, "team": "CHE", "value": 4 }
+  ]
+}

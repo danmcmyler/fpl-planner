@@ -47,7 +47,7 @@ const config: Configuration = {
     historyApiFallback: true,
     open: true,
     hot: true,
-    static: false
+    static: true
   }
 };
 
