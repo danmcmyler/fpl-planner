@@ -9,7 +9,7 @@ const config: Configuration = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.[contenthash].js",
     clean: true,
-    publicPath: "/fpl-planner/"
+    publicPath: "auto"
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
@@ -46,7 +46,8 @@ const config: Configuration = {
     port: 3000,
     historyApiFallback: true,
     open: true,
-    hot: true
+    hot: true,
+    static: false
   }
 };
 
