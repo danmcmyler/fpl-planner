@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Focus outline visible and consistent */
+:focus {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
