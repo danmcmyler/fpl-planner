@@ -4,6 +4,8 @@
   "teams": ["ARS", "CHE", "LIV", "MCI"],
   "difficulty": [
     { "gw": 1, "team": "ARS", "value": 2 },
-    { "gw": 1, "team": "CHE", "value": 4 }
+    { "gw": 1, "team": "CHE", "value": 4 },
+    { "gw": 1, "team": "LIV", "value": 3 },
+    { "gw": 1, "team": "MCI", "value": 5 },
   ]
 }
