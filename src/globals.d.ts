@@ -27,3 +27,11 @@ declare module "*.json" {
   const value: unknown;
   export default value;
 }
+
+declare module "jest-axe" {
+  import { AxeResults, RunOptions } from "axe-core";
+  export function axe(
+    container: Element | DocumentFragment,
+    options?: RunOptions
+  ): Promise<AxeResults>;
+}
